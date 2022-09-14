@@ -1,20 +1,56 @@
-<!DOCTYPE html> 
-<html> 
-<head> 
-<style> 
-*{  
-	font: sans-serif;   
+* {
+	font-family: Sans-Serif;
 }  
 
 body { 
    
-  background-image: url("bg.jpg"); 
+  background-image: url("bg3.jpg"); 
   background-size: cover;
 
 } 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.center2{
+	margin-left: auto;
+	margin-right:auto;
+}
+
+.red {
+
+	color:#f00;
+	font-weight: bold;
+}
+
+.line {
+	text-decoration: underline;
+	font-weight: bold;
+	margin-top: 1em;
+	display: block;
+}
+ 
+h2,h1,h3{text-align: center;}
+
+.top{text-align:center; display: block;}
+.bottom{text-align: center;}
+
+ul.myUL {
+  display: inline-block;
+  text-align: center;
+  font-size: 18px;
+}
+
+a:hover {
+  color: hotpink;
+}
+
 table {
  
-  width: 100%;
+  width: 35%;
   
 }
 
@@ -35,17 +71,6 @@ tr:nth-of-type(3) {
 tr:nth-child(4) {
   background-color: #FDEBD0;
 }
-
-
-</style> 
-</head> 
-<body> 
-
-</body> 
-</html> 
-
-  
-
- 
-
- 
+tr:nth-child(5) {
+  background-color: #FEC8D8;
+}
